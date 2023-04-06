@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply w-12 h-16 m-2
+        border-solid border-4 border-green-400 rounded-md
+        bg-gradient-to-tr from-teal-400 to-sky-500;
+    }
+}
