@@ -14,7 +14,7 @@ function Input(){
              value={input}
              onChange={(e) => setInput(e.target.value)}
              placeholder="מספר"
-             className="border-solid border border-black rounded placeholder:text-right"/>
+             className="dark:bg-slate-800 border-solid border border-black dark:border-white rounded placeholder:text-right dark:placeholder:text-gray-200"/>
             <br />
             <Buttons />
         </InputContext.Provider>

@@ -5,7 +5,7 @@
 @layer components {
     .btn {
         @apply w-12 h-16 m-2
-        border-solid border-4 border-green-400 rounded-md
-        bg-gradient-to-tr from-teal-400 to-sky-500;
+        border-solid border-4 border-green-400 dark:border-green-700 rounded-md
+        bg-gradient-to-tr from-teal-400 dark:from-teal-500 to-sky-500 dark:to-sky-600;
     }
 }
